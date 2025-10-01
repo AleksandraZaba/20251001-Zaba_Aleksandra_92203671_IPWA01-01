@@ -1,0 +1,190 @@
+
+FAQs.html
+<!-- Dies ist die Dokumenttyp-Deklaration, die den Browser anweist, die Seite im HTML5-Standard zu rendern. -->
+<!DOCTYPE html>
+<!-- Das html-Element ist das Wurzelelement der Seite. Das lang-Attribut definiert die Sprache als Deutsch. -->
+<html lang="de">
+<!-- Das head-Element enthält Metadaten über die Webseite. -->
+<head>
+    <!-- Die meta-Tags legen den Zeichensatz (UTF-8) fest, was die korrekte Darstellung von Sonderzeichen sicherstellt. -->
+    <meta charset="UTF-8">
+    <!-- Für die Kompatibilität mit dem Internet Explorer verwendet. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Das meta-Tag für den Viewport ist wichtig für die responsive Darstellung der Seite auf verschiedenen Geräten. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hier wird eine externe CSS-Datei für das Styling der Seite eingebunden. -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Dies ist der Titel der Webseite, der im Browser-Tab angezeigt wird. -->
+    <title>Kleidung fuer die Welt</title>
+</head>
+<!-- Das body-Element enthält den sichtbaren Inhalt der Webseite. -->
+<body>
+<!-- Der header-Bereich enthält die Kopfzeile der Seite. -->
+<header>
+    <!-- Der div-Container für die Navigationsleiste. -->
+    <div class="navbar">
+        <!-- Der div-Container für das Logo. -->
+        <div class="logo">
+            <!-- Dies ist ein Link, der zum Hauptverzeichnis führt. -->
+            <a href="/">
+                <!-- Das Logo-Bild. Das alt-Attribut beschreibt das Bild für Screenreader und Suchmaschinen. -->
+                <img src="Logo11.jpg" alt="Clothe The World"
+                     style="display: block; float: left; font-family: sans-serif; font-size: 5.53vw; font-weight: bold; text-decoration: none; text-shadow: 0.48vw 0.48vw 0.67vw rgba(0, 0, 0, 0.6) ; text-transform: uppercase; box-shadow: 0.48vw 0.48vw 0.67vw rgba(0, 0, 0, 0.6); max-height: 4%; max-width: 15.2vw; padding: 1vw; ">
+            </a>
+            <!-- Dies ist die Hauptüberschrift des Headers. -->
+            <h1 style="color: #FFFFFF; font-size: 5.53vw; font-family: sans-serif; text-align: center; box-shadow: 0.48vw 0.48vw 0.67vw rgba(0, 0, 0, 0.6); text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; padding-left: 20vw; padding-right: 6vw; padding-top: 6vw; padding-bottom: 6vw;">
+                KLEIDUNG FUER DIE WELT </h1>
+        </div>
+        <!-- Dies ist ein div-Container für das Navigationsmenü, das ausgeblendet werden kann. -->
+        <div class="nav-menu-hide">
+            <!-- Dies sind die Navigationslinks zu den verschiedenen Seiten. -->
+            <a href="#"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 1vw">
+                Home </a>
+            <a href="about.html"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 2vw">Ueber
+                uns</a>
+            <a href="FAQs.html"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 3vw">FAQs</a>
+            <a href="Kontakt.html"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 4vw">Kontakt</a>
+            <a href="index.html"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 7vw">Spendenportal</a>
+        </div>
+    </div>
+</header>
+<!-- Hauptüberschrift für den FAQ-Bereich des Spendenportals. -->
+<h2 style="font-size: 3.42vw; font-family: sans-serif; text-align: left; margin: 2vw"> Spendenportal - FAQs </h2>
+<!-- Flex-Container, der die gesamte FAQ-Sektion umschließt und das Layout steuert. -->
+<div class="flex-container" style="display: flex; flex-wrap: wrap; flex: 100%; max-width: 100%; min-height: 100%">
+    <!-- Ein einfacher Zeilenumbruch zur Erstellung von Abstand. -->
+    <br>
+
+    <!-- Der Container für eine einzelne Frage-Antwort-Reihe. -->
+    <div class="row">
+        <!-- Ein klickbarer Button, der als Überschrift für die erweiterbare Sektion dient. -->
+        <button type="button" class="collapsible">Wie gehe ich vor? (Bitte hier klicken)</button>
+        <!-- Der Inhalt, der beim Klicken auf den Button angezeigt wird. -->
+        <div class="content" style="font-family: sans-serif; text-align: justify">
+            <!-- Absatz mit der Antwort auf die Frage "Wie gehe ich vor?". -->
+            <p> Verstauen Sie die Gegenstände in einer oder mehreren unserer Boxen (erhältlich in der Geschäftsstelle).
+                Bringen Sie die Boxen einfach in unsere Geschäftsstelle oder lassen Sie die Sachen von uns abholen.
+                Nutzen Sie jeweils unser Registrierungsformular.
+                Diese kann auf der Webseite unseres Vereins gefunden werden. Wir führen Abholungen aus vielen Gebieten
+                in Brunnthal durch. Geben Sie dazu Folgendes an: Persönliche Übergabe oder Abholung, die Art der
+                Kleidung (mehrere Kategorien sind möglich), die gewünschten Krisenzone(n) sowie, bei Abholung, Ihre
+                Postleitzahl, Straße, Hausnummer, Stadt und den gewünschten Abholtermin. Füllen Sie dazu bitte alle
+                Felder aus, bevor Sie auf Senden klicken.
+                Wenn wir keine Abholung aus Ihrem Gebiet vornehmen können, werden Sie darüber in einer Nachricht
+                informiert, die in einem separaten Fenster oder Tab nach Submit erscheint.
+                Bitte drücken Sie Reset oder aktualisieren Sie den Browser, bevor Sie zur Abgabeoption wechseln. Sobald
+                Ihre Spende bei uns eingegangen ist, stellen wir einen Paketschein für Sie aus und schicken die Ware,
+                nachdem wir sie überprüft haben, in die von Ihnen ausgewählten Länder.
+                Wählen Sie die Option Persönliche Übergabe, so liegt in der Geschäftsstelle ein Tablet mit dem
+                Registrierungsformular bereit. Dort haben Sie ebenfalls die Möglichkeit, frei zu entscheiden, wohin Ihre
+                Spende fließen soll.
+        </div>
+        <!-- Zeilenumbrüche zur Erstellung von Abstand. -->
+        <br>
+        <br>
+        <br>
+        <!-- Button für die nächste aufklappbare Frage. -->
+        <button type="button" class="collapsible">Welche Kleidung kann ich spenden? (Bitte hier klicken)</button>
+        <!-- Inhalt mit der Antwort auf die Frage "Welche Kleidung kann ich spenden?". -->
+        <div class="content" style="font-family: sans-serif; text-align: justify">
+            <!-- Absatz mit der Antwort. -->
+            <p> In Ihrem Paket kann alles Mögliche enthalten sein, was man tragen kann: Kleidung für Damen, Herren und
+                Kinder sowie Schuhe. Das heißt, Sie können alles, was Sie spenden möchten – von der Socke bis zur
+                Wollmütze – einpacken. Es ist erfreulich, wenn alles unbeschädigt und sauber ist.
+                Auf dem Anmeldeformular haben wir alle denkbaren Kategorien für Sie zur Auswahl aufgelistet. </p>
+        </div>
+        <!-- Zeilenumbrüche zur Erstellung von Abstand. -->
+        <br>
+        <br>
+        <br>
+        <!-- Button für die nächste aufklappbare Frage. -->
+        <button type="button" class="collapsible">Was passiert mit meiner Kleiderspende? (Bitte hier klicken)</button>
+        <!-- Inhalt mit der Antwort auf die Frage "Was passiert mit meiner Kleiderspende?". -->
+        <div class="content" style="font-family: sans-serif; text-align: justify">
+            <!-- Absatz mit der Antwort. -->
+            <p> Ihre Kleidungsstücke und die Materialien, aus denen sie gefertigt sind, vermitteln Hoffnung für viele,
+                eröffnen Möglichkeiten und bieten Perspektiven. Zu den Krisengebieten, in die wir gebrauchte Kleidung
+                senden, gehören momentan der Sudan, die Ukraine, Syrien, Jemen, Afghanistan, die Sahelzone, die
+                Demokratische Republik Kongo, Haiti, Myanmar und Somalia.
+                Sie können im Anmeldeformular angeben, wohin die Kleidungsstücke geschickt werden sollen.</p>
+        </div>
+        <!-- Zeilenumbrüche zur Erstellung von Abstand. -->
+        <br>
+        <br>
+        <br>
+        <!-- Button für die nächste aufklappbare Frage. -->
+        <button type="button" class="collapsible">Wie erkennt man unseriöse Sammlungen? (Bitte hier klicken)</button>
+        <!-- Inhalt mit der Antwort auf die Frage "Wie erkennt man unseriöse Sammlungen?". -->
+        <div class="content" style="font-family: sans-serif; text-align: justify">
+            <!-- Absatz mit der Antwort. -->
+            <p> Es ist häufig schwierig zu erkennen, wer die treibende Kraft hinter einer Sammlung ist und wer die
+                Vorteile daraus zieht. Behalten Sie unser Logo im Blick und studieren Sie alle Webseiten sowie
+                eventuelle Sammelzettel sorgfältig. Wir haben momentan noch keine Container. Bitte suchen Sie uns in
+                unseren Geschäftsniederlassungen und auf unserer Website. </p>
+        </div>
+        <!-- Zeilenumbrüche zur Erstellung von Abstand. -->
+        <br>
+        <br>
+        <br>
+        <!-- Button für die nächste aufklappbare Frage. -->
+        <button type="button" class="collapsible">Werden meine Kleidungsstücke womöglich geschreddert? (Bitte hier
+            klicken)
+        </button>
+        <!-- Inhalt mit der Antwort auf die Frage "Werden meine Kleidungsstücke womöglich geschreddert?". -->
+        <div class="content" style="font-family: sans-serif; text-align: justify">
+            <!-- Absatz mit der Antwort. -->
+            <p> Second-Hand-Kleidung erfreut sich global großer Nachfrage. Gut erhaltene und modische Kleidungsstücke
+                werden daher auf keinen Fall geschreddert.
+                Nur minderwertige Textilien werden in Putzlappen oder Rohstoffe umgewandelt. Kleidungsstücke, die sehr
+                stark abgetragen, dauerhaft verschmutzt oder zerschlissen sind, nehmen wir nicht an. Wenn sie es doch
+                schaffen sollten, bei uns anzukommen, werden sie in Rohstoffe umgewandelt, um ökologisch sinnvoll
+                eingesetzt zu werden.
+            </p>
+        </div>
+        <!-- Zeilenumbrüche zur Erstellung von Abstand. -->
+        <br>
+        <br>
+        <br>
+        <!-- Button für die nächste aufklappbare Frage. -->
+        <button type="button" class="collapsible">Bekomme ich eine Spendenbescheinigung? (Bitte hier klicken)</button>
+        <!-- Inhalt mit der Antwort auf die Frage "Bekomme ich eine Spendenbescheinigung?". -->
+        <div class="content" style="font-family: sans-serif; text-align: justify">
+            <!-- Absatz mit der Antwort. -->
+            <p>In der Geschäftsfiliale ist es möglich, eine Spendenbescheinigung/-quittung ausstellen zu lassen und
+                diese persönlich abzuholen. Wenn Sie Ihr Paket persönlich abgeben oder abholen lassen, erhalten Sie ein
+                Formular, das Sie mit Ihrem Namen und Ihrer Adresse ausfüllen müssen.
+                Wir vergleichen diese Angaben dann mit Ihrem Registrierungsformular und speichern sie zusammen als
+                Beleg.
+                Einfach eine E-Mail senden oder anrufen (innerhalb eines Monats nach der Spende).</p>
+        </div>
+
+    </div>
+</div>
+<!-- Zeilenumbrüche zur Erstellung von Abstand. -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer class="flex-container"
+        style="display: flex; flex-wrap: wrap; flex: 100%; font-family: serif; min-width: 100%; max-height: 19.5vw">
+    <!-- Der div-Container für die Fußzeilen-Reihe. -->
+    <div class="row" style="min-width: 100%; max-height: 9.5vw; background-color: #22577A">
+        <!-- Der div-Container für den Inhalt der Fußzeile. -->
+        <div class="div1" style="display: flex; padding: 3vw; background-color: #22577A">
+            <!-- Dies ist ein Link zur Datenschutzseite. -->
+            <a href="Datenschutz.html" style="color: #EBF5EE; font-size: 2.11vw; max-width: 100%; max-height: 100%">Datenschutz</a>
+        </div>
+    </div>
+</footer>
+<script src="FAQs.js"></script>
+</body>
+</html>
