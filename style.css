@@ -1,0 +1,83 @@
+/* Definiert die maximale Höhe und Breite des HTML- und body-Elements auf 100%, um sicherzustellen, dass sie nicht über den viewport hinausragen. */
+html, body {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* Setzt die Zeilenhöhe für den body-Bereich auf das Golden Ratio (ca. 1.618) für bessere Lesbarkeit. */
+body {
+    line-height: 1.618;
+}
+
+/* Definiert Stile für die Navigationsleiste. */
+.navbar {
+    position: relative; /* Positioniert das Element relativ zu seiner normalen Position. */
+    overflow: hidden; /* Verhindert, dass der Inhalt über den Container hinausläuft. */
+    border: solid black; /* Fügt einen schwarzen, durchgehenden Rahmen hinzu. */
+    background-color: #FE621D; /* Setzt die Hintergrundfarbe. */
+}
+
+/* Beginnt eine Media-Abfrage, die Stile nur auf Bildschirmen mit einer maximalen Breite von 600px anwendet. */
+@media screen and (max-width: 600px) {
+    /* Setzt die Schriftgröße für Elemente mit der Klasse "flex-item-left" auf 3.42% der viewport-Breite (vw). */
+    .flex-item-left {
+        font-size: 3.42vw;
+    }
+}
+
+/* Setzt die Textfarbe für alle input-Elemente auf Schwarz. 
+input { 
+    color: black; 
+}*/
+
+/* Style-Definitionen für Eingabefelder und select-Boxen. */
+/* Hier werden nur input-Felder vom Typ text und select-Elemente angesprochen. */
+input[type=text] /*, input[type=number],*/ select /*, textarea*/
+{
+    border: 0.19vw black solid; /* Fügt einen schwarzen, durchgehenden Rahmen hinzu. */
+    border-radius: 0; /* Entfernt abgerundete Ecken. */
+    box-sizing: border-box; /* Stellt sicher, dass Polsterung und Rahmen in die Gesamtbreite des Elements einbezogen werden. */
+    resize: vertical; /* Erlaubt die vertikale Größenänderung durch den Benutzer. */
+    color: black; /* Setzt die Textfarbe auf Schwarz. */
+    max-height: 100%; /* Begrenzt die maximale Höhe auf 100%. */
+    max-width: 100%; /* Begrenzt die maximale Breite auf 100%. */
+
+}
+
+/* Definiert Stile für label-Elemente. */
+label {
+    display: flex; /* Erstellt einen Flexbox-Container. */
+    flex-direction: column; /* Stapelt die Elemente vertikal. */
+    max-width: 38vw; /* Setzt die maximale Breite auf 38% der Viewport-Breite. */
+    line-height: 1.618; /* Setzt die Zeilenhöhe. */
+    margin-bottom: 0.95vw; /* Setzt den unteren Außenabstand. */
+}
+
+/* Setzt die Zeilenhöhe für br-Elemente (Zeilenumbrüche). */
+br {
+    line-height: 1.618;
+}
+
+/* Definiert Stile für aufklappbare (collapsible) Elemente. */
+.collapsible {
+    color: black; /* Setzt die Textfarbe auf Schwarz. */
+    cursor: pointer; /* Ändert den Mauszeiger zu einem Zeiger, wenn er über das Element fährt. */
+    padding: 1.71vw; /* Setzt den Innenabstand. */
+    max-width: 100%; /* Begrenzt die maximale Breite. */
+    border: 0.1vw black solid; /* Fügt einen schwarzen, durchgehenden Rahmen hinzu. */
+    text-align: left; /* Richtet den Text linksbündig aus. */
+    outline: none; /* Entfernt den Umriss, der bei Fokus erscheint. */
+    font-size: 1.43vw; /* Setzt die Schriftgröße. */
+    background-color: #FF8C00; /* Setzt die Hintergrundfarbe. */
+}
+/* Definiert Stile für den aktiven (aufgeklappten) Zustand und den hover-Zustand. */
+.active, .collapsible:hover {
+    background-color: #EBF5EE; /* Ändert die Hintergrundfarbe. */
+}
+/* Definiert Stile für den Inhalt der aufklappbaren Elemente. */
+.content {
+    padding: 0 1.71vw; /* Setzt den Innenabstand. */
+    display: none; /* Blendet den Inhalt standardmäßig aus. */
+    overflow: hidden; /* Verhindert, dass der Inhalt über den Container hinausläuft. */
+    background-color: #FE621D; /* Setzt die Hintergrundfarbe. */
+}
