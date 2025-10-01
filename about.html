@@ -1,0 +1,95 @@
+
+about.html
+<!-- Dies ist die Dokumenttyp-Deklaration, die den Browser anweist, die Seite im HTML5-Standard zu rendern. -->
+<!DOCTYPE html>
+<!-- Das html-Element ist das Wurzelelement der Seite. Das lang-Attribut definiert die Sprache als Deutsch. -->
+<html lang="de">
+<!-- Das head-Element enthält Metadaten über die Webseite. -->
+<head>
+    <!-- Die meta-tags legen den Zeichensatz (UTF-8) fest, was die korrekte Darstellung von Sonderzeichen sicherstellt. -->
+    <meta charset="UTF-8">
+    <!-- Dieses meta-tag ist veraltet und kann entfernt werden, er wurde früher für die Kompatibilität mit dem Internet Explorer verwendet. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Das meta-tag für den viewport ist wichtig für die responsive Darstellung der Seite auf verschiedenen Geräten. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hier wird eine externe CSS-Datei für das Styling der Seite eingebunden. -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Dies ist der Titel der Webseite, der im Browser-Tab angezeigt wird. -->
+    <title>Kleidung fuer die Welt</title>
+</head>
+<!-- Das body-Element enthält den sichtbaren Inhalt der Webseite. -->
+<body>
+<!-- Der header-Bereich enthält die Kopfzeile der Seite. -->
+<header>
+    <!-- Der div-Container für die Navigationsleiste. -->
+    <div class="navbar">
+        <!-- Der div-Container für das Logo. -->
+        <div class="logo">
+            <!-- Dies ist ein Link, der zum Hauptverzeichnis führt. -->
+            <a href="/">
+                <!-- Das Logo-Bild. Das alt-Attribut beschreibt das Bild für Screenreader und Suchmaschinen. -->
+                <img src="Logo11.jpg" alt="Clothe The World"
+                     style="display: block; float: left; font-family: sans-serif; font-size: 5.53vw; font-weight: bold; text-decoration: none; text-shadow: 0.48vw 0.48vw 0.67vw rgba(0, 0, 0, 0.6) ; text-transform: uppercase; box-shadow: 0.48vw 0.48vw 0.67vw rgba(0, 0, 0, 0.6); max-height: 4%; max-width: 15.2vw; padding: 1vw; ">
+            </a>
+            <!-- Dies ist die Hauptüberschrift des Headers. -->
+            <h1 style="color: #FFFFFF; font-size: 5.53vw; font-family: sans-serif; text-align: center; box-shadow: 0.48vw 0.48vw 0.67vw rgba(0, 0, 0, 0.6); text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; padding-left: 20vw; padding-right: 6vw; padding-top: 6vw; padding-bottom: 6vw;">
+                KLEIDUNG FUER DIE WELT </h1>
+        </div>
+        <!-- Dies ist ein div-Container für das Navigationsmenü, das ausgeblendet werden kann. -->
+        <div class="nav-menu-hide">
+            <!-- Dies sind die Navigationslinks zu den verschiedenen Seiten. -->
+            <a href="#"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 1vw">
+                Home </a>
+            <a href="about.html"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 2vw">Ueber
+                uns</a>
+            <a href="FAQs.html"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 3vw">FAQs</a>
+            <a href="Kontakt.html"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 4vw">Kontakt</a>
+            <a href="index.html"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 7vw">Spendenportal</a>
+        </div>
+    </div>
+</header>
+<!-- Die zweite Überschrift auf der Seite. -->
+<h2 style="font-size: 3.42vw; font-family: sans-serif; text-align: left; margin: 2vw"> Über uns </h2>
+<!-- Der div-Container für flexibles Layout. -->
+<div class="flex-container" style="display: flex; flex-wrap: wrap; max-width: 100%">
+    <!-- Ein Bild mit dem alt-Text about. -->
+    <img src="about.jpg" alt="about" style="max-width:40%; max-height: 30%; overflow: hidden; margin-left: 26vw">
+    <!-- Der div-Container für den Textbereich. -->
+    <div class="text"
+         style="font-size: 2.11vw; font-family: sans-serif; overflow: hidden; text-align: justify; margin-left: 4vw; margin-right: 4vw; margin-top: 4vw">
+        <!-- Der Text zum Abschnitt Über uns. -->
+        Wir sind das begeisterte Team von 'Kleidung für die Welt' und stellen sicher, dass Ihre Spenden dort ankommen,
+        wo sie benötigt werden. <br><br> Wir sind die idealen Ansprechpartner für Ihre Spende und einen
+        verantwortungsvollen Umgang mit gebrauchten Gütern. <br> </br> Zögern Sie nicht, uns zu kontaktieren, wenn Sie
+        weitere Fragen haben oder besuchen Sie unsere Webseite mit den häufigsten Fragen. <br> </br>
+    </div>
+</div>
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br>
+<br>
+<br>
+<!-- Das footer-Element enthält den Fußbereich der Seite. -->
+<footer class="flex-container"
+        style="display: flex; flex-wrap: wrap; flex: 100%; font-family: serif; min-width: 100%; max-height: 19.5vw">
+    <!-- Der div-Container für die Fußzeilen-Reihe. -->
+    <div class="row" style="min-width: 100%; max-height: 9.5vw; background-color: #22577A">
+        <!-- Der div-Container für den Inhalt der Fußzeile. -->
+        <div class="div1" style="display: flex; padding: 3vw; background-color: #22577A">
+            <!-- Dies ist ein Link zur Datenschutzseite. -->
+            <a href="Datenschutz.html" style="color: #EBF5EE; font-size: 2.11vw; max-width: 100%; max-height: 100%">Datenschutz</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
