@@ -1,0 +1,358 @@
+<!-- Dies ist die Deklaration des Dokumenttyps, der angibt, dass es sich um HTML5 handelt. -->
+<!DOCTYPE html>
+<!-- Der Start des HTML-Dokuments mit der Sprachdeklaration "de" für Deutsch. -->
+<html lang="de">
+<!-- Der Kopfbereich des Dokuments, der Metadaten enthält. -->
+<head>
+    <!-- Festlegung der Zeichenkodierung auf UTF-8 für die korrekte Darstellung von Sonderzeichen. -->
+    <meta charset="UTF-8">
+    <!-- Kompatibilität mit Internet Explorer, um den neuesten Rendering-Modus zu verwenden. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Festlegung des Viewports für eine korrekte Darstellung auf mobilen Geräten. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Einbindung eines externen Stylesheets für das Layout. -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Der Titel der Webseite, der im Browser-Tab angezeigt wird. -->
+    <title>Kleidung fuer die Welt</title>
+</head>
+<!-- Der Hauptinhalt der Webseite beginnt hier. -->
+<body>
+<!-- Der Kopfbereich der Seite, oft mit Navigation und Logo. -->
+<header>
+    <!-- Ein Container für die Navigationsleiste. -->
+    <div class="navbar">
+        <!-- Ein Container für das Logo. -->
+        <div class="logo">
+            <!-- Ein Link, der zur Startseite führt. -->
+            <a href="/">
+                <!-- Das Logo-Bild mit Alternativtext und inline-Stilen. -->
+                <img src="Logo11.jpg" alt="Clothe The World"
+                     style="display: block; float: left; font-size: 5.53vw; font-weight: bold; font-family: sans-serif; text-decoration: none; text-shadow: 0.48vw 0.48vw 0.67vw rgba(0, 0, 0, 0.6) ; text-transform: uppercase; box-shadow: 0.48vw 0.48vw 0.67vw rgba(0, 0, 0, 0.6); max-height: 4%; max-width: 15.2%; padding: 1vw">
+            </a>
+            <!-- Die Hauptüberschrift der Seite mit inline-Stilen. -->
+            <h1 style="color: #FFFFFF; font-size: 5.53vw; font-family: sans-serif; text-align: center; box-shadow: 0.48vw 0.48vw 0.67vw rgba(0, 0, 0, 0.6); text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; padding-left: 20vw; padding-right: 6vw; padding-top: 6vw; padding-bottom: 6vw">
+                KLEIDUNG FUER DIE WELT </h1>
+        </div>
+        <!-- Das Navigationsmenü, das standardmäßig versteckt ist. -->
+        <div class="nav-menu-hide">
+            <!-- Ein Link zur Startseite mit inline-Stilen. -->
+            <a href="#"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 1vw">
+                Home </a>
+            <!-- Ein Link zur "Über uns"-Seite mit inline-Stilen. -->
+            <a href="about.html"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 2vw">Ueber
+                uns</a>
+            <!-- Ein Link zur FAQ-Seite mit inline-Stilen. -->
+            <a href="FAQs.html"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 3vw">FAQs</a>
+            <!-- Ein Link zur Kontaktseite mit inline-Stilen. -->
+            <a href="Kontakt.html"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 4vw">Kontakt</a>
+            <!-- Ein Link zum Spendenportal mit inline-Stilen. -->
+            <a href="index.html"
+               style="color: #EBF5EE; font-size: 3.42vw; font-weight: bold; font-family: sans-serif; text-align: center; text-decoration: none; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; margin-left: 7vw">Spendenportal</a>
+        </div>
+    </div>
+</header>
+<!-- Eine Überschrift für den Abschnitt "Spendenportal". -->
+<h2 style="font-size: 3.42vw; text-align: left; margin: 2vw"> Spendenportal </h2>
+<!-- Ein Flexbox-Container für das flexible Layout. -->
+<div class="flex-container" style="display: flex; flex-wrap: wrap; flex: 100%; box-sizing: border-box">
+    <!-- Ein Flex-Item für den linken Bereich des Layouts. -->
+    <div class="flex-item-left"
+         style="flex: 60%; flex-grow: 1; border: solid black; overflow: hidden; font-family: sans-serif; font-size: 2.11vw; text-align: left; padding-left: 1vw; padding-right: 1vw; margin-right: 3vw; background-color: #EBF5EE">
+        <!-- Ein Bild, das das Sortieren von Kleidung zeigt. -->
+        <img src="SortingClothes.jpg" alt="Sorting"
+             style="overflow: hidden; max-width: 100%; max-height: 40%; -webkit-filter: blur(0.19vw); filter: blur(0.19vw)">
+        <!-- Leere Zeilenumbrüche für zusätzlichen Abstand. -->
+        <br>
+        <br>
+        <br>
+        <!-- Ein Textabschnitt über die Arbeit der Organisation. -->
+        Viele Länder, wie zum Beispiel der Sudan, sehen sich seit Jahren kriegsähnlichen Konflikten und anderen
+        schwierigen Situationen gegenüber. Im Jahr 2024 haben wir gemeinsam 100.000 Kisten mit Kleidung in die
+        betroffenen Gebiete geliefert. <br>
+        <br>
+        <br>
+        <!-- Eine Frage, was verschickt wird. -->
+        Was versenden wir in Krisengebiete? <br>
+        <br>
+        <br>
+        <!-- Eine Liste der gesammelten Artikel. -->
+        Gut erhaltene T-Shirts, Blusen, Sweatshirts, Pullover, Kapuzenjacken, Jacken, Hosen, Kleider, Röcke, Shorts aber
+        auch Schuhe und Stiefel. <br>
+        <br>
+        <br>
+        <!-- Eine Überschrift zur Funktionsweise der Spende. -->
+        Wie funktioniert das? Verpacken Sie Ihre Spenden in einem unserer Pakete. Die Pakete sind in unseren Filialen
+        erhältlich. Wir können Ihre Spenden abholen (registrieren Sie Ihre Spende(n) einfach über das untenstehende
+        Registrierungsformular) oder Sie können sie in unsere Hauptfiliale in Brunnthal bringen (dort stehen Tablets zur
+        Verfügung, um Ihre Spende zu registrieren; die Vorabregistrierung erfolgt über das untenstehende
+        Registrierungsformular). Wir erstellen dann das Paketetikett und kümmern uns um alles Weitere. <br>
+        <br>
+        <br>
+        <!-- Ein weiterer Absatz zum Prozess der Spendenabwicklung. -->
+        In der Hauptfiliale oder bei der Abholung erhalten Sie ein Formular, in das Sie Ihren Namen und Ihre Adresse
+        eintragen müssen. Wir vergleichen es mit Ihrem Registrierungsformular und legen es zusammen mit Ihrer Spende und
+        Ihrem Anmeldeformular ab. Sie können später eine Quittung erhalten. <br>
+        <!-- Ein Bild einer Weltkugel. -->
+        <img src="Globe.jpg" alt="globe"
+             style="overflow: hidden; max-width: 100%; max-height: 50%; margin-top: 2vw; margin-bottom: 2vw; display: block; -webkit-filter: blur(0.19vw); filter: blur(0.19vw)">
+    </div>
+    <!-- Container für den rechten Flex-Bereich. -->
+    <div class="flex-item-right"
+         style="flex: 25%; flex-grow: 1; overflow: hidden; text-align: left; padding-left: 1vw; padding-right: 1vw; border: solid black; font-size: 2.11vw; font-family: sans-serif; background-color: #EBF5EE">
+        <!-- Bild, das die Verteilung von Kleidung zeigt. -->
+        <img src="DistributingClothes.jpg" alt="Distributing"
+             style="overflow: hidden; max-width: 100%; max-height: 50%; margin-top: 2vw; display: block; -webkit-filter: blur(0.19vw); filter: blur(0.19vw)">
+        <!-- Zeilenumbruch für Abstand. -->
+        <br>
+        <!-- Text über die neuesten Bemühungen zur Versorgung von Menschen in Krisengebieten. -->
+        Lesen Sie mehr über die neuesten Anstrengungen, Menschen in Krisengebieten mit Bekleidung zu versorgen:
+        <!-- Zeilenumbruch für Abstand. -->
+        <br>
+        <!-- Detaillierte Informationen zur Hilfe in der Ukraine. -->
+        Da der Konflikt in der Ukraine andauert und die Wintertemperaturen stark fallen, bieten wir ukrainischen
+        Familien unverzichtbare Winterbekleidung, psychologische Hilfe und Zugang zu Bildungsangeboten an.
+        Fast zwei Jahre nach dem Ausbruch des Krieges in der Ukraine sind nahezu 4,7 Millionen geflohene Ukrainer in
+        unsichere Verhältnisse zurückgekehrt. Über 3,7 Millionen Menschen sind nach wie vor Binnenvertriebene.
+        Um Eltern zu unterstützen, die in diesem Winter um das Wohlergehen und die Gesundheit ihrer Kinder besorgt sind,
+        verteilen wir warme Bekleidungssets für Kinder sowie ihre Eltern quer durch die Ukraine.
+        <!-- Zeilenumbruch für Abstand. -->
+        <br>
+        <!-- Konkretes Beispiel der Hilfe in Podilsk. -->
+        Zum Beispiel geriet über Nacht die südliche Stadt Podilsk, aus der einige unserer Empfänger stammen, unter
+        Beschuss. Plötzlich schien ihre Welt zusammenzubrechen.
+        Um sie auf den kalten Winter vorzubereiten, versorgten wir betroffene Familien mit Winterkleidungssets. Die Sets
+        umfassten Hosen, Mäntel und Schuhe.
+        Das mobile Team unterstützt weiterhin Familien in der gesamten Ukraine.
+    </div>
+    <!-- Ende des Containers. -->
+</div>
+<!-- Zeilenumbruch für Abstand. -->
+<br>
+
+<!-- Container für die News und FAQ-Links. -->
+<div class="flex-container" style="display: flex; flex-wrap: wrap; flex-direction: row; max-width: 100%">
+    <!-- Linker Flex-Bereich für News. -->
+    <div class="flex-item-left"
+         style="flex: 50%; max-width: 50%; font-size: 2.11vw; font-family: sans-serif; text-align: center; margin-top: 1vw; margin-left: 5vw; border: solid black; background-color: #EBF5EE">
+        NEWS:
+        <!-- Informationen zu Schließungszeiten. -->
+        Wir bleiben an folgenden Tagen geschlossen:
+        <!-- Zeilenumbruch für Abstand. -->
+        <br>
+        25.12. und 26.12.2025
+        01.01.2026
+        <!-- Zeilenumbruch für Abstand. -->
+        <br>
+        Schöne Feiertage für Sie alle!
+    </div>
+
+    <!-- Rechter Flex-Bereich für den FAQ-Link. -->
+    <div class="flex-item-right"
+         style="flex: 29%; max-width: 29%; padding-top: 3vw; margin-top: 1vw; margin-left: 5vw; color: black; font-size: 2.11vw; font-family: sans-serif; text-align: center; border: solid black; background-color: #FE621D">
+        Sie haben noch Fragen?
+        <!-- Link zur FAQ-Seite. -->
+        <a href="FAQs.html" style="color: black; font-size: 3.42vw">FAQs</a>
+    </div>
+    <!-- Zeilenumbruch für Abstand. -->
+    <br>
+</div>
+
+<!-- Zeilenumbruch für Abstand. -->
+<br>
+<!-- Container für das Spendenformular. -->
+<div class="flex-container"
+     style="display: flex; flex-wrap: wrap; font-weight: bold; font-family: sans-serif; min-width: 100%">
+    <!-- Zeile für das Formular. -->
+    <div class="row" style="font-weight: bold; min-width: 100%">
+        <!-- Das Formular selbst mit der ID "clothesForm" und einem JavaScript-Handler. -->
+        <form id="clothesForm" onsubmit="Index.js"
+              style="flex: 100%; overflow: hidden; min-width: 95%; border: solid black; background-color: #EBF5EE">
+            <!-- Überschrift für das Formular. -->
+            <h2 style="font-size: 3.42vw; font-weight: bold; color: black; padding-left: 34vw; padding-bottom: 1vw">Ihre
+                Kleiderspende</h2>
+            <!-- Container für die Auswahl des Abgabestils. -->
+            <div>
+                <!-- Label für das Auswahlfeld. -->
+                <label for="dropoffType"
+                       style="font-size: 2.11vw; padding-bottom: 2vw; padding-left: 2vw; margin-left: 2vw">Abgabestil:</label>
+                <!-- Auswahlfeld für persönliche Abgabe oder Abholung. -->
+                <select id="dropoffType" name="dropoffType" style="font-size: 2.11vw; margin-left: 2vw">
+                    <option value="donate" style="font-size: 2.11vw">Persönliche Abgabe</option>
+                    <option value="pickup" style="font-size: 2.11vw">Abholung (siehe weiter unten; leider holen wir
+                        nicht aus allen Postleitzahlgebieten ab)
+                    </option>
+                </select>
+            </div>
+            <!-- Zeilenumbruch für Abstand. -->
+            <br>
+
+            <!-- Container für die Details zur persönlichen Abgabe, standardmäßig sichtbar. -->
+            <div id="dropoffInfo" style="font-size: 2.11vw; padding-left: 2vw">
+                <!-- Überschrift für die Details zur persönlichen Abgabe. -->
+                <h2 style="font-size: 2vw; margin-top: 2vw">Details zur persönlichen Abgabe</h2>
+                <!-- Label und Eingabefeld für das Datum. -->
+                <label for="dropoffDatum" style="font-size: 2.11vw; padding-left: 2vw">Datum:</label>
+                <input type="text" id="dropoffDatum" name="dropoffDatum" style="font-size: 2.11vw">
+                <!-- Zeilenumbruch für Abstand. -->
+                <br>
+
+                <!-- Label und Eingabefeld für die Uhrzeit. -->
+                <label for="dropoffUhrzeit" style="font-size: 2.11vw; padding-left: 2vw">Uhrzeit:</label>
+                <input type="text" id="dropoffUhrzeit" name="dropoffUhrzeit" style="font-size: 2.11vw">
+                <!-- Zeilenumbruch für Abstand. -->
+                <br>
+
+                <!-- Label und Eingabefeld für den Abgabeort. -->
+                <label for="dropoffPlace" style="font-size: 2.11vw; padding-left: 2vw">Ort (zur Zeit nur in Brunnthal
+                    möglich):</label>
+                <input type="text" id="dropoffPlace" name="dropoffPlace" style="font-size: 2.11vw">
+                <!-- Zeilenumbruch für Abstand. -->
+                <br>
+
+                <!-- Label für die Auswahl der Kleiderart. -->
+                <label for="dropoffClothesType" style="font-size: 2.11vw; /*max-height: 8vw;*/ padding-left: 2vw">Art
+                    der Kleidung:</label>
+
+                <!-- Mehrfachauswahlfeld für die Art der Kleidung. -->
+                <select id="dropoffClothesType" name="dropoffClothesType"
+                        style="font-size: 2.11vw; max-height: 8vw; justify-content: center" multiple>
+                    <option value="T-Shirts, Blusen, Sweatshirts, Pullover, Kapuzenjacken, Jacken">T-Shirts, Blusen,
+                        Sweatshirts, Pullover, Kapuzenjacken, Jacken
+                    </option>
+                    <option value="Hosen, Kleider, Röcke, Shorts">Hosen, Kleider, Röcke, Shorts</option>
+                    <option value="Schuhe, Stiefel">Schuhe, Stiefel</option>
+                </select>
+                <!-- Zeilenumbruch für Abstand. -->
+                <br>
+
+                <!-- Label und Auswahlfeld für die Krisenzone. -->
+                <label for="dropoffZone" style="font-size: 2.11vw; padding-left: 2vw">Krisenzone:</label>
+                <select id="dropoffZone" name="dropoffZone" style="font-size: 2.11vw">
+                    <option value="Sudan">Sudan</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="Syrien">Syrien</option>
+                    <option value="Jemen">Jemen</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Sahelzone">Sahelzone</option>
+                    <option value="Kongo">Kongo</option>
+                    <option value="Haiti">Haiti</option>
+                    <option value="Myanmar">Myanmar</option>
+                    <option value="Somalia">Somalia</option>
+                </select>
+            </div>
+
+            <!-- Container für die Abholdetails, standardmäßig ausgeblendet. -->
+            <div id="pickupInfo" style="display: none; font-size: 2.11vw">
+                <!-- Überschrift für die Abholdetails. -->
+                <h2 style="font-size: 2.11vw; margin-top: 2vw; padding-left: 1vw">Details zur Abholung</h2>
+
+                <!-- Label und Eingabefeld für das Abholdatum. -->
+                <label for="pickupDatum" style="font-size: 2.11vw; padding-left: 4vw">Datum:</label>
+                <input type="text" id="pickupDatum" name="pickupDatum" style="font-size: 2.11vw; margin-left: 2vw">
+                <!-- Zeilenumbruch für Abstand. -->
+                <br>
+
+                <!-- Label und Eingabefeld für die Abholuhrzeit. -->
+                <label for="pickupUhrzeit" style="font-size: 2.11vw; padding-left: 4vw">Uhrzeit:</label>
+                <input type="text" id="pickupUhrzeit" name="pickupUhrzeit" style="font-size: 2.11vw; margin-left: 2vw">
+                <!-- Zeilenumbruch für Abstand. -->
+                <br>
+
+                <!-- Label und Mehrfachauswahlfeld für die Art der Kleidung bei Abholung. -->
+                <label for="pickupClothesType" style="font-size: 2.11vw; padding-left: 4vw">Art der Kleidung:</label>
+                <select id="pickupClothesType" name="pickupClothesType"
+                        style="font-size: 2.11vw; max-height: 8vw; margin-left: 2vw" multiple>
+                    <option value="T-Shirts, Blusen, Sweatshirts, Pullover, Kapuzenjacken, Jacken">T-Shirts, Blusen,
+                        Sweatshirts, Pullover, Kapuzenjacken, Jacken
+                    </option>
+                    <option value="Hosen, Kleider, Röcke, Shorts">Hosen, Kleider, Röcke, Shorts</option>
+                    <option value="Schuhe, Stiefel">Schuhe, Stiefel</option>
+                </select>
+                <!-- Zeilenumbruch für Abstand. -->
+                <br>
+                <!-- Label für das Auswahlfeld der Krisenzone für die Abholung. -->
+                <label for="pickupZone" style="font-size: 2.11vw; padding-left: 4vw">Krisenzone:</label>
+                <!-- Auswahlfeld für die Krisenzone bei Abholung mit verschiedenen Optionen. -->
+                <select id="pickupZone" name="pickupZone" style="font-size: 2.11vw; margin-left: 2vw">
+                    <option value="Sudan">Sudan</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="Syrien">Syrien</option>
+                    <option value="Jemen">Jemen</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Sahelzone">Sahelzone</option>
+                    <option value="Kongo">Kongo</option>
+                    <option value="Haiti">Haiti</option>
+                    <option value="Myanmar">Myanmar</option>
+                    <option value="Somalia">Somalia</option>
+                </select>
+                <!-- Zeilenumbruch für Abstand. -->
+                <br>
+
+                <!-- Label und Eingabefeld für die Postleitzahl bei Abholung. -->
+                <label for="pickupZip" style="font-size: 2.11vw; padding-left: 4vw">Postleitzahl:</label>
+                <input type="text" id="pickupZip" name="pickupZip" style="font-size: 2.11vw; margin-left: 2vw">
+                <!-- Zeilenumbruch für Abstand. -->
+                <br>
+
+                <!-- Label und Eingabefeld für die Strasse bei Abholung. -->
+                <label for="pickupStreet" style="font-size: 2.11vw; padding-left: 4vw">Strasse:</label>
+                <input type="text" id="pickupStreet" name="pickupStreet" style="font-size: 2vw; margin-left: 2vw">
+                <!-- Zeilenumbruch für Abstand. -->
+                <br>
+
+                <!-- Label und Eingabefeld für die Hausnummer bei Abholung. -->
+                <label for="pickupStreetNumber" style="font-size: 2.11vw; padding-left: 4vw">Hausnummer:</label>
+                <input type="text" id="pickupStreetNumber" name="pickupStreetNumber"
+                       style="font-size: 2vw; margin-left: 2vw">
+                <!-- Zeilenumbruch für Abstand. -->
+                <br>
+
+                <!-- Label und Eingabefeld für die Stadt bei Abholung. -->
+                <label for="pickupCity" style="font-size: 2.11vw; padding-left: 4vw">Stadt:</label>
+                <input type="text" id="pickupCity" name="pickupCity" style="font-size: 2.11vw; margin-left: 2vw">
+                <!-- Ende des Containers für die Abholdetails. -->
+            </div>
+
+            <!-- Absende-Button für das Formular mit inline-Styling. -->
+            <input type="submit" value="Senden"
+                   style="border-radius: 0.5vw; min-height: 2vw; min-width: 6vw; font-size: 2.11vw; text-align: center; display: inline-block; line-height: 1.618; color: black; margin-left: 34vw; margin-top: 2vw; margin-bottom: 2vw; box-shadow: 0.48vw 0.48vw 0.67vw rgba(0, 0, 0, 0.6); background-color: #FE621D">
+            <!-- Zurücksetzen-Button für das Formular mit inline-Styling. -->
+            <input type="reset" value="Zurücksetzen" id="ResetButton"
+                   style="border-radius: 0.5vw; min-height: 2vw; min-width: 6vw; font-size: 2.11vw; text-align: center; display: inline-block; line-height: 1.618; color: black; margin-left: 0; margin-top: 2vw; margin-bottom: 2vw; box-shadow: 0.48vw 0.48vw 0.67vw rgba(0, 0, 0, 0.6); background-color: #FF8C00">
+            <!-- Zeilenumbruch für Abstand. -->
+            <br>
+
+            <!-- Bild von Kleidungsstücken mit inline-Styling. -->
+            <img src="Kleidungsstuecke.jpg" alt="Kleidungsstuecke.jpg"
+                 style="max-height: 80%; max-width: 45%; overflow: hidden; padding-left: 2vw; padding-right: 2vw; opacity: 0.4">
+
+            <!-- Ende des Formulars. -->
+        </form>
+        <!-- Ende der Zeile für das Formular. -->
+    </div>
+    <!-- Ende des Containers für das Formular. -->
+</div>
+
+<!-- Fußzeile der Webseite als Flex-Container. -->
+<footer class="flex-container"
+        style="display: flex; flex-wrap: wrap; flex: 100%; font-family: serif; min-width: 100%; max-height: 19.5vw">
+    <!-- Zeile für den Inhalt der Fußzeile. -->
+    <div class="row" style="min-width: 100%; max-height: 9.5vw; background-color: #22577A">
+        <!-- Container für den Datenschutz-Link. -->
+        <div class="div1" style="display: flex; padding: 3vw; background-color: #22577A">
+            <!-- Link zur Datenschutzseite mit inline-Styling. -->
+            <a href="Datenschutz.html" style="color: #EBF5EE; font-size: 2.11vw; max-width: 100%; max-height: 100%">Datenschutz</a>
+        </div>
+    </div>
+</footer>
+
+<!-- Einbindung des externen JavaScript-Codes für die Formularlogik. -->
+<script src="index.js"></script>
+<!-- Ende des body-tags. -->
+</body>
+<!-- Ende des HTML-Dokuments. -->
+</html>
