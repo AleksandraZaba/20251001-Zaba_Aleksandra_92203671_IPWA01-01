@@ -1,5 +1,5 @@
 
-index.js
+
 // Fügt einen Event-Listener zum Element mit der ID 'dropoffType' hinzu, der auf das 'change'-Ereignis reagiert.
 document.getElementById('dropoffType').addEventListener('change', function () {
     // Holt das Element mit der ID pickupInfo.
