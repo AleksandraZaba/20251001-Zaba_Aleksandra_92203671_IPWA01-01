@@ -1,5 +1,5 @@
 
-FAQs.js
+
 // Wählt alle Elemente mit der Klasse "collapsible" aus und speichert sie in der Variable `coll` als HTMLCollection.
 var coll = document.getElementsByClassName("collapsible");
 // Deklariert eine Variable i, die als Zähler für die Schleife verwendet wird.
