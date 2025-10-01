@@ -11,4 +11,4 @@ Verwendete Technologien: HTML5 CSS3
 
 Dateien index.html: Die Haupt-HTML-Datei mit Inhalt und Struktur. style.css: Die CSS-Datei mit allen Stilen. about.html: Extra-Seite mit Infos ueber die Organisation. Datenschutz.html: Datenschutz-Seite. FAQs.html: FAQs. Kontakt.html: Kontakt. index.js: Die Haupt-JS-Datei mit Skript fuer das Online-Spendenformular. FAQs.js: Die FAQs-JS-Datei mit Skript. tablet.html: Die Haupt-HTML-Datei fuer das Tablet mit Inhalt und Struktur. tablet.js: Die Haupt-JS-Datei mit Skript fuer das Tablet. img/: Ein Verzeichnis für alle im Projekt verwendeten Bilddateien.
 
-Autor: Aleksandra Zaba - [GitHubProfileLink]
+Autor: Aleksandra Zaba - (https://github.com/AleksandraZaba/20251001-Zaba_Aleksandra_92203671_IPWA01-01.git)
